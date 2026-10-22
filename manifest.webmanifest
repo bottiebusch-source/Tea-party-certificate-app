@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Tea Party 50-State Certificate App",
+  "short_name": "Tea Party Certs",
+  "description": "Private 50-state certificate and compliance disclosure draft generator by Krystal Williams and the Tea Party Committee.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f2e8cf",
+  "theme_color": "#142d4c",
+  "icons": [
+    {"src": "icons/app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}

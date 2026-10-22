@@ -1,17 +1,24 @@
-50-State Certificate & Disclosure Generator — Version 3.1
+TEA PARTY 50-STATE CERTIFICATE APP
+Copyright notice in app: © 2026 Krystal Williams and the Tea Party Committee. All rights reserved.
 
-SHARE THE APP
-1. Extract the ZIP file.
-2. Send the index.html file to someone, or send them the entire ZIP.
-3. The recipient opens index.html in a modern web browser. No installation or account is required.
-4. Select a state, edit the business details, optionally upload a shared TXT/CSV fee schedule (the same schedule appears on every state back page), then use Print / Save PDF.
+WHAT THIS PACKAGE IS
+A static, installable Progressive Web App (PWA) package for the 50-state certificate and disclosure draft generator. It includes the app, a home-screen icon, a web-app manifest, and a service worker for caching after first load.
 
-COPYRIGHT
-© 2026 Krystal Williams and the Tea Party Committee. All rights reserved.
-Please retain the copyright notice when sharing or redistributing this app.
+IMPORTANT
+This is not yet a public website. To let other people use it from a shareable https:// link and install it from their browser, publish this folder to a static web host that serves HTTPS. This package is not an Android APK and is not published in Google Play.
+The certificate generator is a private draft tool, not a government-issued license, deed, or legal opinion. Verify state information and fees before relying on it.
 
-WHAT THIS APP IS
-A private certificate-layout and state-disclosure drafting tool. All 50 states have draft profiles with official resource links. State summaries are preliminary and require verification for the exact entity, locality, activity, and current effective dates.
+EASIEST PUBLISHING ROUTE (GitHub Pages)
+1. Sign in to GitHub and create a new public repository, for example tea-party-certificate-app.
+2. Upload all files and folders from this package to the repository root (index.html, manifest.webmanifest, service-worker.js, icons/app-icon.svg, README.txt).
+3. In the repository, open Settings > Pages.
+4. Under Build and deployment, choose Deploy from a branch, select main and /(root), then Save.
+5. Wait for GitHub Pages to publish. It will show the public https:// URL in Settings > Pages.
+6. Open that URL on Android Chrome. Use the browser menu and choose Install app or Add to Home screen (wording varies).
+7. Share the public https:// URL with others.
 
-IMPORTANT LIMITS
-This app is not a government-issued certificate, license, deed, registration, legal opinion, or proof of ownership. The shared fee schedule upload accepts TXT or CSV and is applied uniformly to every selected state; uploaded contents are not sent anywhere. It does not submit filings, issue permits, or automatically email state agencies. Verify requirements directly with official agencies and local authorities before relying on a profile.
+ALTERNATIVE
+Upload the contents of this folder to a static host such as Netlify or Cloudflare Pages. Use the public HTTPS address provided by the host.
+
+SHARED FEE SCHEDULE
+The uploaded fee schedule is loaded locally in each user's browser and is not uploaded to a central server. Each recipient must upload the schedule in their own copy. Do not put private or sensitive data in the schedule.
